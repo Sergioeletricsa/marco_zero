@@ -1,0 +1,58 @@
+* { box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+}
+.body {
+    text-decoration-color: black;
+}
+.container {
+    background-color: rgb(201, 230, 173) ;
+}
+.container {
+    max-width: 1070px;
+    margin: auto;
+    color: rgb(201, 230, 173);
+}
+.container .rightside {
+    
+}
+body {
+    background-color: rgb(201, 230, 173);
+}
+
+header {
+    color: black;
+    padding-top: 45px;
+    text-align: center;
+}
+.heroArea {
+    display: flex;
+}
+.heroArea .leftside{
+    flex: 1;
+}
+.heroArea .rightside{
+    flex: 1;
+    background-image: url("./imagens/paco-do-frevo.png");
+    background-size: 100% auto ;
+}
+.zero {
+    background-color: white;
+    text-decoration-color: black;
+    tab-size: 14px;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}   
+
+footer {
+    background-color: rgb(201, 230, 173);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
